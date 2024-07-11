@@ -1,0 +1,28 @@
+.paypal-button-row {
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .paypal-button-number-1 {
+        order: -1;
+    }
+}
+
+@media only screen and (min-width: 300px) {
+    .paypal-button-number-1 {
+        order: -1;
+    }
+}
+
+@media only screen and (min-width: 150px) {
+    .paypal-button-number-1 {
+        order: -1;
+    }
+}
+
+@media only screen and (min-width: 75px) {
+    .paypal-button-number-1 {
+        order: -1;
+    }
+}
